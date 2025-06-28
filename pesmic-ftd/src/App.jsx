@@ -69,7 +69,6 @@ function App() {
         console.error("Failed to reset password:", error);
       }
     }
-
   };
 
 

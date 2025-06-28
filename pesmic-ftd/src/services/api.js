@@ -4,7 +4,7 @@ const API_URL = import.meta.env.VITE_API_URL;  // we're reading this value from 
 
 export const axiosInstance = axios.create({
   baseURL: API_URL,
-  withCredentials: true,  // this is a must - read about it below
+  withCredentials: true,  // this is a must for cookies to be sent and receive with requests
   headers: {
     "Content-Type": "application/json",
   },

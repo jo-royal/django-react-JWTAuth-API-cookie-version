@@ -1,0 +1,13 @@
+This project took care of the following tasks:
+
+1. Custom User Model -> with Production-ready permissions
+2. Http-only cookies for access token and refresh token
+3. User Registration, email confirmation
+4. User Login/
+5. Refresh Token for access token regeneration
+6. User Logout
+7. Reset Password via email confirmation
+8. Change Password while logged in
+9. Custom Token-Cookie-based authentication using JWT
+10. Cors headers configuration
+11. Simple react frontend with axios for API testing.
