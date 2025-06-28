@@ -1,3 +1,5 @@
+"This project demonstrates secure JWT authentication using HTTP-only cookies — a production-ready approach that significantly enhances security compared to traditional methods like localStorage or sessionStorage. By leveraging HTTP-only cookies, tokens are inaccessible to JavaScript, reducing exposure to XSS attacks. This makes it one of the most recommended practices for handling authentication in modern web applications."
+
 This project took care of the following tasks:
 
 1. Custom User Model -> with Production-ready permissions
