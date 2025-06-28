@@ -33,7 +33,7 @@ class CreateUserSerializer(serializers.ModelSerializer):
         )
         user.set_password(validated_data['password'])
         user.save()
-        send_welcome_email(recipient_list= [user.email])
+        send_welcome_email(user.email)
         return user
     
 
